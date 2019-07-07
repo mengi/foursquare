@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@drawable/shape_frame"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mpv_venue"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorWhite">
+
+            <ImageView
+                android:id="@+id/iv_venue"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_splash" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_venue_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/ui_text_5"
+            android:textStyle="bold"
+            tools:text="kafe" />
+
+
+        <TextView
+            android:id="@+id/tv_tip_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorToolbar"
+            android:padding="10dp"
+            android:text="@string/str_comments"
+            android:textColor="@color/ui_text_5"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_comments_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/str_comments_empty"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_user_comments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/et_places_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/bg_form_rounded"
+        android:hint="@string/str_example"
+        android:textColorHint="@color/ui_text_4"
+        android:inputType="text"
+        android:lines="1"
+        android:padding="15dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_near"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_form_rounded"
+        android:hint="@string/str_close_to_me"
+        android:inputType="text"
+        android:lines="1"
+        android:padding="15dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_button_rounded"
+        android:drawableLeft="@drawable/baseline_search_white_24"
+        android:padding="15dp"
+        android:text="@string/str_search"
+        android:textColor="@color/colorWhite" />
+
+
+</LinearLayout>
+

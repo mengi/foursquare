@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Foursquare</string>
+    <string name="map_api_key">AIzaSyCRcbeW6JBRWyGHOp3gY2y0hXMR2yS2J8s</string>
+
+    <string name="str_my_page">My Page</string>
+    <string name="str_search">Search</string>
+    <string name="str_places">Places</string>
+    <string name="str_example">Exp. Caffe, Bar</string>
+    <string name="str_close_to_me">Close to me</string>
+
+    <!--DIALOG-->
+    <string name="dialog_title_error">Hata</string>
+    <string name="dialog_title_info">Bilgi</string>
+    <string name="dialog_title_success">Başarılı</string>
+    <string name="dialog_title_warn">Uyarı</string>
+    <string name="dialog_open_button_text">Aç</string>
+    <string name="dialog_close_button_text">Vazgeç</string>
+    <string name="dialog_okay_button_text">Evet</string>
+    <string name="dialog_no_button_text">Hayır</string>
+
+    <string name="navigation_drawer_open">Aç</string>
+    <string name="navigation_drawer_close">Kapa</string>
+
+    <string name="str_app_exit">Uygulamadan çıkmak istediğinize emin misiniz?</string>
+    <string name="str_please_wait">Lütfen Bekleyiniz...</string>
+    <string name="str_places_length_error_message">Yer adı minimum 3 karakter içermelidir!!!</string>
+    <string name="str_close_location_error_message">Konum bilgisi alınamadı, Konumun açık olup olmadığını kontrol ediniz!!!</string>
+    <string name="str_comments">Yorumlar</string>
+    <string name="str_places_empty">Aradığınız yer bulunamadı!!!</string>
+    <string name="str_category_empty">Aradığınız kategori bulunamadı!!!</string>
+    <string name="str_comments_empty">Mekana ait yorum bulunamadı!!!</string>
+    <string name="str_data_error">Gosterilecek Veri Yok</string>
+    <string name="str_not_connection_network">İnternet bağlantısı yok.Lütfen bağlantınızı kontrol edin ve yeniden deneyin.</string>
+</resources>
